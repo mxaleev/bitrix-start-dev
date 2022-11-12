@@ -1,0 +1,61 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/libs/swagger/*
+report.*.json
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/TEST*.xml
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+.env
+
+# Custom for Project
+/bitrix
+/upload
+
+/local/vendor
+/local/modules/bx.*
+/local/modules/sprint.migration
+/local/build/
+/local/assets/
+
+/!sandbox
+
+
+.htaccess
+
+
+# build webpack script
+/local/components/**/**/templates/**/**/script.js
+!/local/components/**/**/templates/**/source/script.js

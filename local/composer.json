@@ -1,0 +1,36 @@
+{
+  "name": "xaleev/backoffice",
+  "type": "project",
+  "extra": {
+    "installer-paths": {
+      "modules/{$name}/": ["type:bitrix-module"]
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-iconv": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "andreyryabin/sprint.migration": "^4.1.2",
+    "vlucas/phpdotenv": "^5.5",
+    "php-di/php-di": "^6.4.0",
+    "beta/bx.model": "^1.19.0",
+    "beta/bx.model.gen": "^1.0.7",
+    "beta/bx.router": "^1.7.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    },
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "authors": [
+    {
+      "name": "Mikhail Khaleev",
+      "email": "mxaleev@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
